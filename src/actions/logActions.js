@@ -15,7 +15,7 @@ import { GET_LOGS, SET_LOADING, LOGS_ERROR } from './types';
 // };
 
 //  this is the above code refactored 
-
+// Get logs from server 
 export const getLogs = () => async dispatch => {
 try {
     setLoading();
